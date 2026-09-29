@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/api/clientes')
+fetch('https://bancoapp-1.onrender.com')
     .then(respuesta => respuesta.json()) 
     .then(clientes => {
         const contenedor = document.getElementById('contenedor-clientes');
